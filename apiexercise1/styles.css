@@ -1,0 +1,21 @@
+.reddit {
+    animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        background-color: #80cec9;
+    }
+    100% {
+        background-color: #7cecda;
+    }
+}
+
+body {
+    background-color: silver;
+    color: #301934;
+}
+
+main {
+    display: none;
+}
